@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: bisque;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.description {
+  font-size: 20px;
+  background-color: aquamarine;
+  font-weight: 500;
+  padding: 20px;
+  margin: 0;
+  border-radius: 10px;
+}
