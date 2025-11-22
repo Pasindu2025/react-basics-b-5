@@ -10,10 +10,10 @@ export function MainNav() {
           <span className="text-primary text-xl font-bold ml-2">Cinescope</span>
         </Link>
         <nav className="ml-auto flex items-center gap-4">
-          <Link href="/Movies">Movies</Link>
+          <Link href="/movies">movies</Link>
 
-          <Link href="/Movies">Genras</Link>
-          <Link href="/Movies">About</Link>
+          <Link href="/genres">Genras</Link>
+          <Link href="/genaras">About</Link>
           <Link href="/Movies">Admin</Link>
         </nav>
         <ModeTrogle />
