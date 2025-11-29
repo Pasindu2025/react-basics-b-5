@@ -3,17 +3,22 @@ export default function Generaspage() {
   return (
     <div className="flex flex-col gap-6 p-5 bg-amber-200 min-h-screen p-6 items-center justify-center ">
       <div>
-        <h1 className="text-primary font-bold text-3xl">This is My First Heading
-
+        <h1 className="text-primary font-bold text-3xl">
+          This is My First Heading
         </h1>
         <div className="flex gap-6 p-6 text-center font-bold text-xs">
-      
-      <div className="w-40 h-50 bg-primary p-6">Background primary  </div>
-      <div className="w-40 h-50 border-primary border p-6">Border Primary </div>
-      <div className="w-40 h-50 outline-4 outline-primary p-6">Outline Primary </div>
-       <div className="w-40 h-50 outline-4 outline-secondary p-6">Outline secondary </div>
+          <div className="w-40 h-50 bg-primary p-6">Background primary </div>
+          <div className="w-40 h-50 border-primary border p-6">
+            Border Primary{" "}
+          </div>
+          <div className="w-40 h-50 outline-4 outline-primary p-6">
+            Outline Primary{" "}
+          </div>
+          <div className="w-40 h-50 outline-4 bg-secondary p-6">
+            Outline secondary{" "}
+          </div>
+        </div>
       </div>
-     </div>
     </div>
   );
 
